@@ -1,0 +1,15 @@
+export const processSteps = [
+  { id: 1, step: '01', title: 'Material Loading', description: 'Pre-inspected materials are loaded at our factory yard onto specialist transport vehicles under supervisory checks.' },
+  { id: 2, step: '02', title: 'Transportation', description: 'Precast elements are transported on flatbed trucks with secure steel cradles to prevent vibration damage.' },
+  { id: 3, step: '03', title: 'Unloading', description: 'Hydraulic cranes and trained riggers unload panels and columns to designated staging areas on your site.' },
+  { id: 4, step: '04', title: 'Placing & Layout', description: 'Elements are placed per engineered layout drawings with survey instruments ensuring millimetre-precise positioning.' },
+  { id: 5, step: '05', title: 'Foundation Digging', description: 'Column footings are excavated to required depth per soil report. Dimension control checks are carried out before proceeding.' },
+  { id: 6, step: '06', title: 'Column Fixing', description: 'Pre-drilled columns are lowered into footings and held plumb with temporary bracing until concrete sets.' },
+  { id: 7, step: '07', title: 'Slab Joining', description: 'Precast slabs are placed on column ledges and stitched together at joints per the connection detail drawings.' },
+  { id: 8, step: '08', title: 'Level Checking', description: 'Digital levels and laser instruments verify planeness across the full slab area before any permanent connections.' },
+  { id: 9, step: '09', title: 'Concreting', description: 'Topping concrete and grout pours bond all connections into a monolithic structure meeting design strength requirements.' },
+  { id: 10, step: '10', title: 'Slab Fixing', description: 'Panel hardware, brackets and edge forms are tightened and inspected. Curing compound is applied for strength gain.' },
+  { id: 11, step: '11', title: 'Grout Filling', description: 'Non-shrink grouting fills all connection pockets, ensuring full bearing and watertight joints throughout the structure.' },
+  { id: 12, step: '12', title: 'Final Finishing', description: 'Surface repairs, pointing and cleaning are done. Visual inspection of all faces is conducted against quality checklist.' },
+  { id: 13, step: '13', title: 'Project Complete', description: 'Client walkthrough, as-built documentation handover and warranty certificate issued. Project delivered on time, every time.' },
+]
