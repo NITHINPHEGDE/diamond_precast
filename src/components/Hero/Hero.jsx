@@ -6,10 +6,10 @@ import CountUp from 'react-countup'
 import './Hero.css'
 
 const stats = [
-  { value: 850, suffix: '+', label: 'Projects Completed' },
-  { value: 600, suffix: '+', label: 'Happy Clients' },
-  { value: 15, suffix: '+', label: 'Years Experience' },
-  { value: 25, suffix: '+', label: 'Areas Served' },
+  { value: 5000, suffix: '+', label: 'Projects Completed' },
+  { value: 5000, suffix: '+', label: 'Happy Clients' },
+  { value: 8, suffix: '+', label: 'Years Experience' },
+  { value: 3000, suffix: '+', label: 'Areas Served' },
 ]
 
 function StatItem({ stat }) {
@@ -55,13 +55,18 @@ export default function Hero() {
     >
       {/* Background */}
       <motion.div className="hero-bg" style={{ y: bgY }}>
-        <img
-          src="https://picsum.photos/seed/herodp2024/1920/1080"
-          alt="Diamond Precast"
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          disablePictureInPicture
+          controlsList="nodownload nofullscreen noremoteplayback"
           className="hero-bg-img"
-          loading="eager"
-          fetchPriority="high"
-        />
+          style={{ pointerEvents: 'none' }}
+        >
+          <source src="/images/hero-bg.mp4" type="video/mp4" />
+        </video>
 
         <div className="hero-overlay" />
       </motion.div>
@@ -81,7 +86,7 @@ export default function Hero() {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <span className="hero-label-dot" />
-              Trusted Across Karnataka Since 2009
+              Trusted Across Karnataka Since 2022
             </motion.div>
 
             <motion.h1
@@ -120,7 +125,7 @@ export default function Hero() {
               transition={{ duration: 0.7, delay: 0.8 }}
             >
               <a
-                href="tel:+919876543210"
+                href="tel:+918884842088"
                 className="hero-btn hero-btn-call"
                 aria-label="Call Diamond Precast"
               >
@@ -129,7 +134,7 @@ export default function Hero() {
               </a>
 
               <a
-                href="https://wa.me/919876543210?text=Hi%20Diamond%20Precast%2C%20I%20am%20interested%20in%20your%20precast%20services."
+                href="https://wa.me/918884842088?text=Hi%20Diamond%20Precast%2C%20I%20am%20interested%20in%20your%20precast%20services."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hero-btn hero-btn-wa"

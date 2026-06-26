@@ -6,17 +6,17 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91 98765 43210',
+    value: '+91 88848 42088',
     sub: 'Mon–Sat, 8am–7pm',
-    href: 'tel:+919876543210',
+    href: 'tel:+918884842088',
     action: 'Call Now',
   },
   {
     icon: MessageCircle,
     label: 'WhatsApp',
-    value: '+91 98765 43210',
+    value: '+91 88848 42088',
     sub: 'Quick response guaranteed',
-    href: 'https://wa.me/919876543210?text=Hi%20Diamond%20Precast%2C%20I%20need%20a%20quote%20for%20precast%20services.',
+    href: 'https://wa.me/918884842088?text=Hi%20Diamond%20Precast%2C%20I%20need%20a%20quote%20for%20precast%20services.',
     action: 'Chat Now',
   },
   {
@@ -30,7 +30,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: 'Address',
-    value: 'Diamond Precast, Industrial Area, Bengaluru – 560099, Karnataka',
+    value: 'Thimmasandra, Tarahunase, Chikkajala Hobli, Bengaluru North – 562157, Karnataka',
     sub: 'Factory & Office',
     href: 'https://maps.google.com/?q=Diamond+Precast+Bengaluru',
     action: 'Get Directions',
@@ -121,7 +121,7 @@ export default function Contact() {
               {/* Google Maps embed placeholder — replace src with real embed URL */}
               <iframe
                 title="Diamond Precast Location Map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5!2d77.5946!3d12.9716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDU4JzE3LjgiTiA3N8KwMzUnNDAuNiJF!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.946512251636!2d77.5859042!3d13.1657725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1f00743f6629%3A0x879dd96c59063389!2sDiamond%20precast%20compound%20wall!5e0!3m2!1sen!2sin!4v1782464079138!5m2!1sen!2sin"
                 className="map-iframe"
                 allowFullScreen
                 loading="lazy"
@@ -139,11 +139,11 @@ export default function Contact() {
               <h3 className="cta-title">Ready to start your project?</h3>
               <p className="cta-sub">Call or WhatsApp us right now for a same-day response and free site visit quote.</p>
               <div className="cta-buttons">
-                <a href="tel:+919876543210" className="btn-primary" aria-label="Call Diamond Precast">
+                <a href="tel:+918884842088" className="btn-primary" aria-label="Call Diamond Precast">
                   <Phone size={16} /> Call Now
                 </a>
                 
-                  <a href="https://wa.me/919876543210?text=Hi%20Diamond%20Precast%2C%20I%20want%20a%20free%20quote%20for%20my%20project."
+                  <a href="https://wa.me/918884842088?text=Hi%20Diamond%20Precast%2C%20I%20want%20a%20free%20quote%20for%20my%20project."
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{

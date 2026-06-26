@@ -6,7 +6,7 @@ const pillars = [
   {
     icon: <Target size={22} />,
     title: 'Our Mission',
-    text: 'To deliver structurally superior precast solutions that cut construction time without ever compromising on material quality or safety standards.',
+    text: 'To supply good material and quality products to people, ensuring customer satisfaction, on time workmanship and best service.',
   },
   {
     icon: <Eye size={22} />,
@@ -21,8 +21,8 @@ const pillars = [
 ]
 
 const highlights = [
-  'Factory-cast under ISO-compliant conditions',
-  'IS 456:2000 quality standards on every batch',
+  'Government approved certifications',
+  'M-25 & M-30 grade quality standards on every batch',
   '60% faster installation than conventional masonry',
   'End-to-end project delivery from factory to finish',
 ]
@@ -52,7 +52,7 @@ export default function About() {
               />
               {/* Floating badge */}
               <div className="about-badge">
-                <div className="about-badge-number">15+</div>
+                <div className="about-badge-number">8+</div>
                 <div className="about-badge-label">Years of Excellence</div>
               </div>
             </div>
@@ -70,10 +70,10 @@ export default function About() {
               Karnataka's Premier<br />Precast Specialists
             </h2>
             <p className="section-subtitle" style={{ marginBottom: '32px' }}>
-              Founded in 2009, Diamond Precast has grown from a regional concrete supplier into Karnataka's most recognised name in precast compound walls and structural concrete elements. We combine engineering precision with site-ready reliability.
+              Founded in 2022, Diamond Precast has grown into Karnataka's most recognised name in precast compound walls and structural concrete elements. With 8+ years of hands-on experience, we combine engineering precision with site-ready reliability.
             </p>
             <p style={{ fontSize: '1rem', color: '#6b7280', lineHeight: 1.8, marginBottom: '32px' }}>
-              Our state-of-the-art manufacturing facility near Bengaluru produces precast elements under strict quality controls, ensuring that every wall panel, slab and column that leaves our yard meets and exceeds the structural requirements your project demands.
+              Our state-of-the-art manufacturing facility at Thimmasandra, Tarahunase, Chikkajala Hobli, Bengaluru North produces precast elements under strict quality controls, ensuring that every wall panel, slab and column that leaves our yard meets and exceeds the structural requirements your project demands.
             </p>
 
             {/* Highlights */}

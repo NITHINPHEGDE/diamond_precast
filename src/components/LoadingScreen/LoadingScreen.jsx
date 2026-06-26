@@ -26,17 +26,10 @@ export default function LoadingScreen() {
         style={{ textAlign: 'center' }}
       >
         {/* Diamond logo mark */}
-        <motion.div
-          animate={{ rotate: [0, 360] }}
-          transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
-          style={{
-            width: 64,
-            height: 64,
-            margin: '0 auto 24px',
-            border: '3px solid var(--color-accent)',
-            borderTopColor: 'transparent',
-            borderRadius: '50%',
-          }}
+        <img
+          src="/images/logo.png"
+          alt="Diamond Precast Logo"
+          style={{ width: 120, height: 120, objectFit: 'contain', margin: '0 auto 24px' }}
         />
         <div style={{ fontFamily: 'Playfair Display, serif', fontSize: '1.75rem', fontWeight: 700, color: '#fff', letterSpacing: '0.02em' }}>
           Diamond<span style={{ color: 'var(--color-accent)' }}> Precast</span>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import { motion } from 'framer-motion'
-import { Diamond, Phone, MessageCircle, Mail, MapPin, Facebook, Instagram, Youtube, Twitter, ArrowUp } from 'lucide-react'
+import { Phone, MessageCircle, Mail, MapPin, Facebook, Instagram, Youtube, Twitter, ArrowUp } from 'lucide-react'
 
 const quickLinks = [
   { to: 'home', label: 'Home' },
@@ -41,17 +41,14 @@ export default function Footer() {
             {/* Brand col */}
             <div className="footer-brand">
               <div className="footer-logo">
-                <div className="logo-icon">
-                  <Diamond size={18} strokeWidth={2} />
-                </div>
-                <div>
-                  <span style={{ fontFamily: 'Playfair Display, serif', fontWeight: 700, fontSize: '1.25rem', color: '#fff' }}>
-                    Diamond<span style={{ color: 'var(--color-accent)' }}> Precast</span>
-                  </span>
-                </div>
+                <img
+                  src="/images/logo.png"
+                  alt="Diamond Precast Logo"
+                  style={{ height: 50, width: 'auto', objectFit: 'contain' }}
+                />
               </div>
               <p className="footer-brand-desc">
-                Karnataka's most trusted precast compound wall and concrete structure specialists. 15+ years of delivering strength, quality and timely completion.
+                Karnataka's most trusted precast compound wall and concrete structure specialists. 8+ years of delivering strength, quality and timely completion.
               </p>
               <div className="footer-socials">
                 {socialLinks.map(s => {
@@ -97,12 +94,11 @@ export default function Footer() {
             <div>
               <div className="footer-heading">Get in Touch</div>
               <div className="footer-contacts">
-                <a href="tel:+919876543210" className="footer-contact-row" aria-label="Call us">
+                <a href="tel:+918884842088" className="footer-contact-row" aria-label="Call us">
                   <Phone size={14} color="var(--color-accent)" />
-                  <span>+91 98765 43210</span>
+                  <span>+91 88848 42088</span>
                 </a>
-                
-                  <a href="https://wa.me/919876543210"
+                <a href="https://wa.me/918884842088"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer-contact-row"
@@ -117,7 +113,7 @@ export default function Footer() {
                 </a>
                 <div className="footer-contact-row">
                   <MapPin size={14} color="var(--color-accent)" style={{ flexShrink: 0 }} />
-                  <span>Industrial Area, Bengaluru – 560099, Karnataka</span>
+                  <span>Thimmasandra, Tarahunase, Chikkajala Hobli, Bengaluru North – 562157, Karnataka</span>
                 </div>
               </div>
             </div>
@@ -130,7 +126,7 @@ export default function Footer() {
         <div className="container">
           <div className="footer-bottom-inner">
             <p className="footer-copy">
-              © {new Date().getFullYear()} Diamond Precast. All rights reserved. | Serving Karnataka Since 2009
+              © {new Date().getFullYear()} Diamond Precast. All rights reserved. | Serving Karnataka Since 2022
             </p>
             <button
               onClick={scrollToTop}
@@ -159,17 +155,6 @@ export default function Footer() {
           align-items: center;
           gap: 10px;
           margin-bottom: 20px;
-        }
-        .footer-logo .logo-icon {
-          width: 40px;
-          height: 40px;
-          background: var(--color-accent);
-          border-radius: 10px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: var(--color-primary);
-          flex-shrink: 0;
         }
         .footer-brand-desc {
           font-size: 0.875rem;
