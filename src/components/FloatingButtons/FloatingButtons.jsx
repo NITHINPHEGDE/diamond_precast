@@ -323,6 +323,8 @@ export default function FloatingButtons() {
           text-decoration: none;
         }
         .floating-call:hover { box-shadow: 0 8px 24px rgba(13,27,42,0.5); }
+        
+        .floating-calc:hover { box-shadow: 0 8px 24px rgba(232,119,34,0.5); }
         .floating-calc {
           bottom: 160px;
           right: 24px;
@@ -339,9 +341,11 @@ export default function FloatingButtons() {
           font-family: 'Barlow Condensed', sans-serif;
           text-transform: uppercase;
           letter-spacing: 0.05em;
+          white-space: nowrap;
+          display: flex;
+          align-items: center;
         }
-        .floating-calc:hover { box-shadow: 0 8px 24px rgba(232,119,34,0.5); }
-        .floating-top {
+          floating-top {
           bottom: 24px;
           right: 96px;
           width: 48px;
@@ -354,7 +358,7 @@ export default function FloatingButtons() {
         @media (max-width: 480px) {
           .floating-wa { bottom: 16px; right: 16px; width: 54px; height: 54px; }
           .floating-call { bottom: 82px; right: 16px; width: 46px; height: 46px; }
-          .floating-calc { bottom: 144px; right: 16px; width: 46px; height: 46px; }
+          .floating-calc { bottom: 144px; right: 16px; height: 40px; width: auto; padding: 0 12px; font-size: 0.75rem; }
           .floating-top { bottom: 16px; right: 84px; width: 44px; height: 44px; }
         }
       `}</style>
