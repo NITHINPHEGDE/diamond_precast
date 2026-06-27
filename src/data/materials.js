@@ -1,8 +1,8 @@
 export const materials = [
   {
     id: 1,
-    title: '55 Grade Ramco Cement',
-    description: 'Premium OPC 55-grade cement from Ramco, Indias most trusted cement brand. Higher strength gain, lower water demand, superior durability.',
+    title: '55 Grade Cement of Premium Brands',
+    description: 'Premium OPC 55-grade cement from top brands, ensuring higher strength gain, lower water demand and superior durability for every precast element.',
     icon: 'layers',
     stat: '55 Grade',
   },

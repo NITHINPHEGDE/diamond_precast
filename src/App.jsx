@@ -54,10 +54,10 @@ export default function App() {
       <main>
         <Hero />
         <About />
+        <WhyChooseUs /> 
         <Products />
         <Materials />
         <Process />
-        <WhyChooseUs />
         <Areas />
         <Gallery />
         <Owners />
