@@ -54,14 +54,11 @@ export default function Navbar() {
           className="navbar-logo"
           aria-label="Diamond Precast Home"
         >
-          <div className="logo-icon">
-            <Diamond size={20} strokeWidth={2} />
-          </div>
-
-          <div className="logo-text">
-            <span className="logo-main">Diamond</span>
-            <span className="logo-sub"> Precast</span>
-          </div>
+          <img
+            src="/images/logo.png"
+            alt="Diamond Precast Logo"
+            style={{ height: 40, width: 'auto', objectFit: 'contain' }}
+          />
         </Link>
 
         {/* Desktop Navigation */}
@@ -87,7 +84,7 @@ export default function Navbar() {
 
         {/* Call Button */}
         <a
-          href="tel:+919876543210"
+          href="tel:+918884842088"
           className="navbar-cta"
           aria-label="Call Diamond Precast"
         >
@@ -142,7 +139,7 @@ export default function Navbar() {
 
             <div className="mobile-menu-cta">
               <a
-                href="tel:+919876543210"
+                href="tel:+918884842088"
                 className="btn-primary"
                 aria-label="Call Diamond Precast"
               >

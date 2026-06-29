@@ -1,15 +1,15 @@
 export const materials = [
   {
     id: 1,
-    title: '53 Grade Ramco Cement',
-    description: 'Premium OPC 53-grade cement from Ramco, Indias most trusted cement brand. Higher strength gain, lower water demand, superior durability.',
+    title: '55 Grade Cement of Premium Brands',
+    description: 'Premium OPC 55-grade cement from top brands, ensuring higher strength gain, lower water demand and superior durability for every precast element.',
     icon: 'layers',
-    stat: '53 Grade',
+    stat: '55 Grade',
   },
   {
     id: 2,
     title: '6–8 mm High-Tensile Steel',
-    description: 'HYSD Fe500 steel reinforcement bars with guaranteed yield strength. Corrosion-resistant coating ensures longevity across Karnatakas varied climates.',
+    description: 'High quality 6 to 8mm steel reinforcement bars with guaranteed yield strength. Ensures longevity and structural strength across all projects.',
     icon: 'zap',
     stat: 'Fe 500',
   },

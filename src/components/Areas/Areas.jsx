@@ -55,7 +55,7 @@ export default function Areas() {
           transition={{ duration: 0.6, delay: 0.6 }}
         >
           <p>Don't see your area? We may still be able to serve you.</p>
-          <a href="tel:+919876543210" className="btn-primary">
+          <a href="tel:+918884842088" className="btn-primary">
             <MapPin size={16} />
             Check Availability
           </a>
